@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white"
+	tools:context=".ui.record.RecordFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:background="@color/white"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_marginTop="20dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="10dp"
+			android:text="故障查询"
+			android:textColor="@color/fontColor"
+			android:textSize="22sp"
+			/>
+
+
+			<LinearLayout
+				android:layout_marginTop="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="12dp"
+				tools:ignore="UselessParent">
+
+					<TextView
+						android:layout_width="0dp"
+						android:layout_weight="1"
+						android:layout_height="match_parent"
+						android:paddingTop="10dp"
+						android:text="车编号："
+						android:textAlignment="center"
+						android:textSize="18sp"
+						tools:ignore="NestedWeights" />
+
+					<EditText
+						android:id="@+id/bicycleId"
+						android:layout_width="0dp"
+						android:layout_weight="2"
+						android:inputType="text"
+						android:layout_marginBottom="5dp"
+						android:layout_height="wrap_content"
+						android:background="@drawable/input_border"/>
+
+
+					<LinearLayout
+						android:layout_width="0dp"
+						android:layout_weight="1"
+						android:layout_height="wrap_content">
+
+
+						<ImageView
+							android:id="@+id/searchBtn"
+							android:layout_width="40dp"
+							android:layout_height="40dp"
+							android:layout_gravity="center_vertical"
+							android:layout_marginStart="12dp"
+							android:layout_marginEnd="10dp"
+							android:padding="5dp"
+							android:scaleType="fitXY"
+							android:src="@drawable/search"
+							/>
+
+					</LinearLayout>
+
+			</LinearLayout>
+
+
+
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="1dp"
+
+				android:background="#E8E8E6" />
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:text="行驶记录"
+					android:textColor="@color/fontColor"
+					android:textSize="22sp"
+					/>
+
+				<TextView
+					android:id="@+id/st_date_show"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentStart="true"
+					android:layout_marginStart="140dp"
+					android:layout_marginTop="10dp"
+					android:textColor="@color/fontColor"
+					android:textSize="23sp" />
+
+				<Button
+					android:id="@+id/delete_btn"
+					android:layout_width="100dp"
+					android:layout_height="wrap_content"
+					android:layout_alignParentEnd="true"
+					android:layout_marginEnd="10dp"
+					android:text="删除"
+					/>
+			</RelativeLayout>
+
+			<androidx.recyclerview.widget.RecyclerView
+				android:layout_width="match_parent"
+				android:layout_height="500dp"
+				android:id="@+id/bicycle_recyclerView"
+				android:background="@color/white"
+				/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</FrameLayout>

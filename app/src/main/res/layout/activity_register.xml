@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".activity.register.RegisterActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:text="@string/username"
+		android:textColor="@color/fontColor"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="@id/username_register"
+		app:layout_constraintBottom_toTopOf="@id/username_register"
+		/>
+
+
+	<EditText
+		android:id="@+id/username_register"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="106dp"
+		android:layout_marginStart="20dp"
+		android:layout_marginEnd="20dp"
+		android:hint="@string/prompt_email"
+		android:background="@drawable/input_border"
+		android:selectAllOnFocus="true"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/password_text_register"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="35dp"
+		android:text="@string/password"
+		android:textColor="@color/fontColor"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintTop_toBottomOf="@id/username_register"
+		app:layout_constraintStart_toStartOf="@id/username_register"
+
+		/>
+
+	<EditText
+		android:id="@+id/password_register"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:layout_marginStart="20dp"
+		android:layout_marginEnd="20dp"
+		android:hint="@string/prompt_password"
+		android:imeActionLabel="@string/action_sign_in_short"
+		android:imeOptions="actionDone"
+		android:inputType="textPassword"
+		android:selectAllOnFocus="true"
+		android:background="@drawable/input_border"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/password_text_register" />
+
+
+
+	<Button
+		android:id="@+id/register1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="start"
+		android:layout_marginTop="20dp"
+		android:layout_marginStart="30dp"
+		android:text="一键注册"
+		android:textColor="@color/white"
+		android:background="@drawable/button_background"
+		app:layout_constraintStart_toStartOf="@id/password_register"
+		app:layout_constraintTop_toBottomOf="@+id/password_register"
+		app:layout_constraintVertical_bias="0.2" />
+
+	<Button
+		android:id="@+id/returnLogin"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="start"
+		android:layout_marginEnd="30dp"
+		android:text="返回登录"
+		android:textColor="@color/white"
+		android:background="@drawable/button_background"
+		app:layout_constraintEnd_toEndOf="@id/password_register"
+		app:layout_constraintTop_toTopOf="@+id/register1"
+		app:layout_constraintVertical_bias="0.2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

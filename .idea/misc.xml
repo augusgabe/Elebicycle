@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/bicycle_bg.xml" value="0.1615" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/button_background.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/ic_info.xml" value="0.176" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/ic_record.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/ic_setting.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/input_border.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/search_border.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/seekbar.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/drawable-xxhdpi/spinner_style.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.17603748326639893" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout-w936dp/activity_login.xml" value="0.20546875" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/activity_register.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/app_bar.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/batteryiinfo.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/bicycle_item.xml" value="0.40546875" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/break_down_window.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/content_main.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/fragment_bicycle_in.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/info_fragment.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/reconn_item.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/reconnect_info.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/record_fragment.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/layout/setting_fragment.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.172" />
+        <entry key="..\:/Code/Androi project/EleBicycle/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.172" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

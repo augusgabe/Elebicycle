@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:cardCornerRadius="15dp"
+	android:padding="15dp"
+	>
+
+	<LinearLayout
+		android:background="#D5E1E8"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			>
+
+			<ImageView
+				android:id="@+id/turnback_break"
+				android:layout_width="40dp"
+				android:layout_height="35dp"
+				android:layout_alignParentStart="true"
+				android:layout_marginStart="10dp"
+				android:background="@drawable/turnback"
+				android:backgroundTint="@color/black"
+				/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:layout_gravity="center"
+				android:text="故障信息记录"
+				android:textSize="22sp" />
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:orientation="horizontal"
+			>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="5dp"
+				android:text="电车编号："
+				android:textSize="18sp"/>
+
+			<TextView
+				android:id="@+id/break_info_ebNum"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:orientation="horizontal"
+			>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="5dp"
+				android:text="故障次数："
+				android:textSize="18sp"/>
+
+			<TextView
+				android:id="@+id/break_info_bNum"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:orientation="horizontal"
+			>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="5dp"
+				android:text="故障类型(最近)："
+				android:textSize="18sp"/>
+
+			<TextView
+				android:id="@+id/break_info_bType"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:orientation="horizontal"
+			>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="5dp"
+				android:text="故障时间(最近)："
+				android:textSize="18sp"/>
+
+			<TextView
+				android:id="@+id/break_info_bTime"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
